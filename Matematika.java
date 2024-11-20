@@ -2,14 +2,11 @@ package matematika;
 
 public class Matematika {
 
-    int angka1;
-    int angka2;
-
-    public int pengurangan(){
+    public int pengurangan(int angka1, int angka2){
         return angka1 - angka2;
     }
 
-    public  int pertambahan(){
+    public  int pertambahan(int angka1, int angka2){
         return angka1 + angka2;
     }
 

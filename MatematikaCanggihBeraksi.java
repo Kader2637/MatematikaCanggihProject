@@ -14,12 +14,12 @@ public class MatematikaCanggihBeraksi {
         mtk.pilihan = input.nextInt();
 
         System.out.print("Masukkan angka 1 : ");
-        mtk.angka1 = input.nextInt();
+        int angka1 = input.nextInt();
 
         System.out.print("Masukkan angka 2 : ");
-        mtk.angka2 = input.nextInt();
+        int angka2 = input.nextInt();
 
-        mtk.getpilihan();
+        mtk.getpilihan(angka1,angka2);
     }
 
 }
