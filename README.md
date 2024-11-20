@@ -22,4 +22,4 @@ Proyek ini adalah aplikasi sederhana yang memungkinkan pengguna untuk melakukan 
 
 Clone repository ini dan jalankan menggunakan IDE Java atau compiler Java favorit Anda.
 
-git clone https://github.com/username/MatematikaCanggih.git
+git clone https://github.com/Kader2637/MatematikaCanggihProject.git
