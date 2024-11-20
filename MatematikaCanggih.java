@@ -5,9 +5,6 @@ public class MatematikaCanggih extends Matematika{
     int pilihan;
 
     public int modulus(int angka1, int angka2) {
-        if (angka2 == 0) {
-            System.out.println("Error: Pembagi tidak boleh 0");
-        }
             return angka1 % angka2;
     }
 
