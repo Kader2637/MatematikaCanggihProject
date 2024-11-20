@@ -4,6 +4,10 @@ public class MatematikaCanggih extends Matematika{
 
      int pilihan;
 
+     public int modulus(){
+        return angka1 % angka2;
+    }
+
     public void pilihan(){
         System.out.println("\n=========Selamat datang di aplikasi matematika==========");
         System.out.println("\n1. Pengurangan");
