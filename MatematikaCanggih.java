@@ -10,7 +10,7 @@ public class MatematikaCanggih extends Matematika{
         System.out.println("\n=========Selamat datang di aplikasi matematika==========");
         System.out.println("\n1. Pertambahan");
         System.out.println("2. Perkalian");
-        System.out.println("3. Modulus / Sisa bagi");
+        System.out.println("3. Modulus atau Sisa bagi");
     }
 
     public void getpilihan(int pilihan , int angka1 , int angka2){
