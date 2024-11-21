@@ -11,7 +11,7 @@ public class MatematikaCanggihBeraksi {
         mtk.pilihan();
 
         System.out.print("\nMasukkan Pilihan anda : ");
-        mtk.pilihan = input.nextInt();
+        int pilihan = input.nextInt();
 
         System.out.print("Masukkan angka 1 : ");
         int angka1 = input.nextInt();
@@ -19,7 +19,7 @@ public class MatematikaCanggihBeraksi {
         System.out.print("Masukkan angka 2 : ");
         int angka2 = input.nextInt();
 
-        mtk.getpilihan(angka1,angka2);
+        mtk.getpilihan(pilihan , angka1,angka2);
     }
 
 }

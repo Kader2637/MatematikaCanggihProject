@@ -2,8 +2,6 @@ package matematika;
 
 public class MatematikaCanggih extends Matematika{
 
-    int pilihan;
-
     public int modulus(int angka1, int angka2) {
             return angka1 % angka2;
     }
@@ -15,7 +13,7 @@ public class MatematikaCanggih extends Matematika{
         System.out.println("3. Modulus / Sisa bagi");
     }
 
-    public void getpilihan(int angka1 , int angka2){
+    public void getpilihan(int pilihan , int angka1 , int angka2){
         switch (pilihan) {
             case 1:
                 System.out.println("\nHasil Pengurangan: " + angka1 + " - " + angka2 + " = " + pengurangan(angka1, angka2));
